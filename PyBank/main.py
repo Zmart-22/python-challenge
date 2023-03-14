@@ -42,7 +42,7 @@ decreasemonth = monthlychanges.index(min(monthlychanges)) + 1
 # Print your data
 
 print("Financial Analysis")
-print("----------------------------")
+print("-----------------------------------------------")
 print(f"Total Months: {len(months)}")
 print(f"Total: ${sum(profit)}")
 print(f"Average Change: $ {averagechange}")
@@ -57,7 +57,7 @@ with open('/Users/katieboals/Downloads/python-challenge-main 2/PyBank/Analysis/a
     #Printing your data into the text file making sure to add a new line between sets of data
     file.write("Financial Analysis")
     file.write("\n")
-    file.write("----------------------------")
+    file.write("---------------------------------------------")
     file.write("\n")
     file.write(f"Total Months: {len(months)}")
     file.write("\n")
